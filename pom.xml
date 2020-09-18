@@ -83,7 +83,13 @@
            <scope>system</scope>
             <systemPath>${project.basedir}/lib/ojdbc6.jar</systemPath>
         </dependency>
-
+        <!--mysql-->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.20</version>
+            <scope>runtime</scope>
+        </dependency>
         <dependency>
             <groupId>org.apache.jasper.glassfish</groupId>
             <artifactId>org.apache.jasper.glassfish</artifactId>
